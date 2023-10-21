@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="main">
+        <div id="sidebar">
+            <img id="logo" src="assets/Spotify logo.svg"/>
+            <ul>
+                <li><a href="#"><img src="assets/fi-ss-home.svg">Home</a></li>
+                <li><a href="#"><img src="assets/fi-rs-search.svg">Search</a></li>
+                <li><a href="#"><img src="assets/library.svg">Your Library</a></li>
+                <li><a href="#"><img src="assets/createplaylist.svg">Create Playlist</a></li>
+                <li><a href="#"><img src="assets/likedsongssmall.svg">Liked Songs</a></li>
+                <li><a href="#"><img src="assets/your episodes.svg">Your Episodes</a></li>
+                <li><a href="#">FAV</a></li>
+                <li><a href="#">Daily Mix 1</a></li>
+                <li><a href="#">Discover Weekly</a></li>
+                <li><a href="#">Malayalam</a></li>
+                <li><a href="#">Dance / Electronic Mix</a></li>
+                <li><a href="#">EDM / Popular</a></li>
+                <li><a href="#"><img src="assets/grommet-icons_install-option.svg">Install App</a></li>
+
+            </ul>
+        </div>
+        <div id="mainbar">
+            <h3>Good Morning</h3>
+            <div id="welcome_list">
+                <div class="welcome_cards"><img src="assets/Liked Songs.svg">Liked Songs</div>
+                <div class="welcome_cards"><img src="assets/Neffex Playlist.svg">Neffex Playlist</div>
+                <div class="welcome_cards"><img src="assets/KDA.png">K/DA</div>
+                <div class="welcome_cards"><img src="assets/Dance.svg">Dance / Electronic Mix</div>
+            </div>
+            <h4>Shows you might like</h4>
+        </div>
+        <div id="player"></div>
+    </div>
 </body>
 </html>
