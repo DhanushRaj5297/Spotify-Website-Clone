@@ -34,6 +34,7 @@ h4{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    z-index: -1;
 }
 
 #sidebar{
@@ -98,6 +99,44 @@ h4{
 
 .welcome_cards>img{
     margin-right: 21px;
+}
+
+#shows{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:32.64px;
+    margin-right: 120px;
+    margin-top: 32px;
+}
+.shows_cards{
+    background-color: #181818;;
+    display: flex;
+    flex-direction: column;
+    width: 251.292px;
+    height: 305.904px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.shows_cards img{padding: 21.76px;}
+
+.show_heading{
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    position: static;
+    padding-left: 21.76px;
+}
+.show_author{
+    color: #B3B3B3;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    padding-left: 21.76px;
 }
 
 
